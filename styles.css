@@ -1,0 +1,29 @@
+:root {
+    --dark: #1e2126;
+    --light: #fefefe;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.bg-dark {
+    background-color: var(--dark) !important;
+}
+
+.bg-light {
+    background-color: var(--light) !important;
+}
+
+.form-control,
+.btn {
+    min-height: 3.125rem;
+    line-height: initial;
+}
+
+.carousel-item {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
